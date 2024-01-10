@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+<title>Projecte Symfony</title>
+{% endblock %}
+
+{% block add_style %}
+<!-- <link href="css/inici.css" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="{{asset('css/inici.css')}}">
+{% endblock %}
+
+
+{% block inici_body %}
+<section id="intro">
+  <div class="intro-container">
+    <div class="carousel-item active">
+      <img src="{{ asset('img/inici/1.png') }}" alt="Descripción de la imagen" id="imatgeInici">
+
+    </div>
+  </div>
+</section>
+{% endblock %}

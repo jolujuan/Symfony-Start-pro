@@ -1,8 +1,43 @@
+h1#titolInici {
+    position: relative;
+    width: 50%;
+    color: white;
+    border: solid red 1px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    z-index: 1009;
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    font-size: 34px;
+    font-weight:500;
+}
+
+#intro p#paragrafInici{
+    color: white;
+    width: 50%;
+    z-index: 1009;
+    position: relative;
+    border: solid red 1px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    font-weight: bold;
+}
+
 
 #imatgeInici {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 400px;
+    opacity: 0.8;
+    width: max-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    position: relative;
 }

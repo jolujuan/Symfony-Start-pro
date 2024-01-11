@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}
-<title>Projecte Symfony</title>
+<title>HOME</title>
 {% endblock %}
 
 {% block add_style %}
@@ -14,8 +14,13 @@
 {% block inici_body %}
 <section id="intro">
   <div class="intro-container">
+    <h1 id="titolInici">Projecte Symfony Joselu 2n DAW</h1>
+    <p id="paragrafInici">Inici programa gestió d'eqips i membres del projecte 2n DAW. <br> IES Lluis Simarro <br> Curs
+      23/24 </p>
     <div class="carousel-item active">
-      <img src="{{ asset('img/inici/1.png') }}" alt="Descripción de la imagen" id="imatgeInici">
+      <a href="{{path('dades_equip')}}"> <img src="{{ asset('img/inici/1.png') }}" alt="Descripción de la imagen"
+          id="imatgeInici">
+      </a>
 
     </div>
   </div>

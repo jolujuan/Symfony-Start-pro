@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,14 +186,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro p {
-  width: 80%;
+  width: 20%;
   margin: 0 auto 30px auto;
   color: #fff;
 }
 
 @media (min-width: 1024px) {
   #intro p {
-    width: 60%;
+    width: 15%;
   }
 }
 

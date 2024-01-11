@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class IniciController extends AbstractController
 {
-    #[Route('/inici', name: 'inici')]
+    #[Route('/', name: 'inici')]
 
     public function inici()
     {

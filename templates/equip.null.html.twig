@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+<title>EQUIP</title>
+{% endblock %}
+
+{% block add_style %}
+<!-- <link href="css/inici.css" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="{{asset('css/equip.css')}}">
+{% endblock %}
+
+
+{% block inici_body %}
+<section id="intro">
+  <div class="intro-container">
+    <h1 id="titolInici">Dades Equip</h1><br>
+
+    <div id="paragrafInici">
+      <img src="{{ asset('img/inici/error.png') }}" alt="Descripción de la imagen" id="imatgeInici">
+
+    </div>
+
+    <div id="paragrafInici">
+      <div class="container">
+        <h3>Gestió D'equips</h3>
+        <div class="field">NO s'ha trobat l'equip</div>
+
+      </div>
+    </div>
+    <div id="paragrafFinal">
+      <a href="{{path('inici')}}"> <img src="{{ asset('img/inici/home.png') }}" alt="Descripción de la imagen"
+          id="imatgeHome"></a>
+
+      <p>Torna a l'inici</p>
+    </div>
+  </div>
+</section>
+{% endblock %}
